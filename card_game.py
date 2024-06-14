@@ -10,6 +10,7 @@ for suit in suits:
         deck.append(rank + ' of ' + suit)
 print(deck)
 
+# Shuffle the deck
 random.shuffle(deck)    
 
 # Deal a hand of 5 cards
